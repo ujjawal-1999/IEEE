@@ -1,0 +1,186 @@
+html,
+body {
+	height: 100%;
+	font-family: "Lato", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	background: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	color: #111111;
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 16px;
+	color: #484848;
+	font-weight: 400;
+	line-height: 30px;
+	margin: 0 0 15px 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+	outline: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+}
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+}
+
+
+/*---------------------
+  Footer
+-----------------------*/
+
+.footer-section {
+	background: black;
+	color: #fff;
+	padding-top: 80px;
+}
+
+.company-widget h4,
+.event-widget h4,
+.links-widget h4,
+.contact-widget h4 {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 900;
+	margin-bottom: 50px;
+}
+
+.company-widget ul li,
+.event-widget ul li,
+.links-widget ul li {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	list-style: none;
+	margin-bottom: 24px;
+	opacity: 0.5;
+}
+
+.contact-widget ul li {
+	list-style: none;
+	position: relative;
+	margin-bottom: 22px;
+}
+
+.contact-widget ul li:first-child span {
+	line-height: 30px;
+}
+
+.contact-widget ul li i {
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #D51E7B;
+}
+
+.contact-widget ul li img {
+	position: absolute;
+	left: 4px;
+	top: 5px;
+	margin-right: -13px;
+}
+
+.contact-widget ul li span {
+	margin-left: 33px;
+	display: inline-block;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	opacity: 0.5;
+}
+
+.copyright-area {
+	position: relative;
+	padding: 25px 0;
+}
+
+.copyright-area:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	border-top: 1px solid #F21E7D;
+	content: "";
+}
+
+.copyright-text .copyright,
+.copyright-text .term {
+	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	opacity: 0.5;
+}
+
+.copyright-text .copyright a,
+.copyright-text .term a {
+	
+	color: #fff;
+}
+
+.copyright-text .footer-social {
+	display: inline-block;
+	margin-left: 798px;
+}
+
+.copyright-text .footer-social a {
+	color: #fff;
+	margin-right: 25px;
+	padding: 5px;
+}
+
+.copyright-text .term {
+	display: inline-block;
+	float: right;
+}
+
